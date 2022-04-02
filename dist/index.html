@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>mini prj</title>
 </head>
-<body class="bg-mainColor  debug-screens">
+<body class="bg-mainColor debug-screens">
 
 <div class="container bg-gray-100 mx-auto min-h-screen px-6 py-8">
     <! - page header / headings ->
@@ -56,18 +56,30 @@
         </div>
     </section>
 
-    <section id="contact" class="mt-8">
-    <! - Contact ->
-    <div class="grid grid-cols-2 gap-4 w-8/12 mx-auto">
-        <div id="email">
-            <p>Your message:</p>
-            <a href="mailto:markusgonzales@gmail.com">Send an Email</a>
+    <section id="contact" class="mt-8 mb-10">
+        <! - Contact ->
+        <div class="grid grid-cols-2 gap-4 w-8/12 mx-auto">
+            <div id="email">
+                <p>Your message:</p>
+                <a href="#"
+                   class="flex items-center bg-gray-300 rounded-lg w-max px-4 py-2 shadow-lg hover:shadow-none transition hover:bg-gray-400  focus:ring-2 focus:ring-yellow-400">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                         class="h-4 mr-1 feather feather-at-sign">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                    </svg>
+                    <span>
+                    Send an Email
+                    </span>
+                </a>
+            </div>
+            <div id="whatsApp_telefon">
+                <p>WhatsApp:</p>
+                1 222 555 44 33
+            </div>
         </div>
-        <div id="whatsApp_telefon">
-            <p>WhatsApp:</p>
-            1 222 555 44 33
-        </div>
-    </div>
 
     </section>
 </div>

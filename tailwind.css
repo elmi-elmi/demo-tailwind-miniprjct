@@ -7,13 +7,20 @@
         font-family: Oswald;
         src: url(/dist/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
     }
-    h1{
+    h1 {
         @apply mb-6 text-5xl font-headline   text-mainColor;
     }
-    h2{
+
+    h2 {
         @apply mb-3 text-3xl font-headline  text-mainColor;
     }
-    h3{
+
+    h3 {
         @apply mb-2 text-2xl font-headline  text-mainColor;
     }
+
+    p {
+        @apply text-lg
+    }
+
 }
